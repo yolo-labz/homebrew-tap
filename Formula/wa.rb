@@ -3,34 +3,37 @@
 
 # Homebrew formula for wa — WhatsApp automation CLI + daemon.
 #
-# This file is maintained manually for the bootstrap release. Future
-# releases are written by goreleaser's brews publisher once the
-# HOMEBREW_TAP_GITHUB_TOKEN secret is configured on the main repo. The
-# goreleaser template in .goreleaser.yaml and this file MUST stay in
-# sync — drift causes `brew install yolo-labz/tap/wa` to silently
-# upgrade to a broken formula.
+# This file is maintained manually until HOMEBREW_TAP_GITHUB_TOKEN
+# is configured on yolo-labz/wa. After that, every v* tag push on
+# upstream writes an updated Formula/wa.rb here automatically via
+# goreleaser's brews publisher. The goreleaser template in
+# .goreleaser.yaml and this file MUST stay in sync — drift causes
+# `brew install yolo-labz/tap/wa` to silently upgrade to a broken
+# formula.
+#
+# Latest bump by hand: v0.3.3.
 class Wa < Formula
   desc "WhatsApp automation CLI + daemon (per-profile isolation)"
   homepage "https://github.com/yolo-labz/wa"
-  version "0.3.2"
+  version "0.3.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/yolo-labz/wa/releases/download/v0.3.2/wa_0.3.2_darwin_arm64.tar.gz"
-      sha256 "74c22ecab42099a8611ba50472158a1c2e78c89a4ab22925ff1a90d9bb3e8be2"
+      url "https://github.com/yolo-labz/wa/releases/download/v0.3.3/wa_0.3.3_darwin_arm64.tar.gz"
+      sha256 "0260c1def067408431b3e60762260bf7066795cda7eb9bca34eead3e7eb1959e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yolo-labz/wa/releases/download/v0.3.2/wa_0.3.2_linux_amd64.tar.gz"
-      sha256 "02970eb66e77f56659e224d4874bb52c8f421816b6ca6d796ea3a1d09949e56f"
+      url "https://github.com/yolo-labz/wa/releases/download/v0.3.3/wa_0.3.3_linux_amd64.tar.gz"
+      sha256 "64a026d59f5125af8e59d7a862235a7485164bbeaeda8dbf4709e34971681af6"
     end
 
     on_arm do
-      url "https://github.com/yolo-labz/wa/releases/download/v0.3.2/wa_0.3.2_linux_arm64.tar.gz"
-      sha256 "625b940e8389f9b57c6ecfc1d20309b308507bf4b821c93e5b6442d781bcd0f8"
+      url "https://github.com/yolo-labz/wa/releases/download/v0.3.3/wa_0.3.3_linux_arm64.tar.gz"
+      sha256 "52b3fd2fe5140c5a066e9b169c88ca09576ee15d41b93bb82353285781886bca"
     end
   end
 
