@@ -5,13 +5,13 @@
 class Wa < Formula
   desc "WhatsApp automation CLI + daemon"
   homepage "https://github.com/yolo-labz/wa"
-  version "2.0.0-rc6"
+  version "2.0.0-rc7"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yolo-labz/wa/releases/download/v2.0.0-rc6/wa_2.0.0-rc6_darwin_arm64.tar.gz"
-      sha256 "871217e0a44d44701666b6e43a56f1e67cfdc423c8c220cb74fd880036432d2e"
+      url "https://github.com/yolo-labz/wa/releases/download/v2.0.0-rc7/wa_2.0.0-rc7_darwin_arm64.tar.gz"
+      sha256 "088a07276e64b33adbc5a812b9f53afc82f3e498697dd533d6b555339209a16b"
 
       def install
         bin.install "wa"
@@ -23,8 +23,8 @@ class Wa < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/yolo-labz/wa/releases/download/v2.0.0-rc6/wa_2.0.0-rc6_linux_amd64.tar.gz"
-        sha256 "5d96e07dfb58b13e19b163e378ba4df5c349b21374d686b44ef94460004e5b54"
+        url "https://github.com/yolo-labz/wa/releases/download/v2.0.0-rc7/wa_2.0.0-rc7_linux_amd64.tar.gz"
+        sha256 "1fefed3c4c79d42671b70047443942cc3f63bb8b3c480be5a5aa38ab5e61e596"
 
         def install
           bin.install "wa"
@@ -34,8 +34,8 @@ class Wa < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/yolo-labz/wa/releases/download/v2.0.0-rc6/wa_2.0.0-rc6_linux_arm64.tar.gz"
-        sha256 "7324aadc9864b431ef594a3a5b80f6334458f06a2e4caade6b8bf3d94404d87b"
+        url "https://github.com/yolo-labz/wa/releases/download/v2.0.0-rc7/wa_2.0.0-rc7_linux_arm64.tar.gz"
+        sha256 "c765ad272b1becc69ffe9c522e15dbd0c033eb3c85c0f4917cea3cbb229b493a"
 
         def install
           bin.install "wa"
