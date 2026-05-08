@@ -1,0 +1,8 @@
+# Path-based ownership. Informational only — this is a solo-maintained tap.
+# Pattern matches GitHub CODEOWNERS syntax; first match wins.
+
+*                  @phsb5321
+
+/.github/          @phsb5321
+/Formula/          @phsb5321
+/SECURITY.md       @phsb5321
