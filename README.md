@@ -27,3 +27,9 @@ end-to-end via the GoReleaser pipeline.
 The tap infrastructure is Apache-2.0 (matching the upstream project). The
 formulas themselves are trivially derived from the release tarballs; they
 carry no separate license.
+
+---
+
+## Services
+
+Compliance-grade AI architecture for regulated workloads — async-first, USD-denominated, LATAM-based / EN-fluent. See [blog.home301server.com.br/services](https://blog.home301server.com.br/services/).
