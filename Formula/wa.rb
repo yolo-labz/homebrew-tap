@@ -11,7 +11,7 @@ class Wa < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/yolo-labz/wa/releases/download/v2.2.0/wa_2.2.0_darwin_arm64.tar.gz"
-      sha256 "da1b645915896d9af5ac042a7c2daac5d83dc7126ac301000361595354876524"
+      sha256 "b75aabc4edf4bf14bf600db3a1350436162c44d8c791fbfd887cca49ec36599e"
 
       def install
         bin.install "wa"
@@ -24,7 +24,7 @@ class Wa < Formula
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/yolo-labz/wa/releases/download/v2.2.0/wa_2.2.0_linux_amd64.tar.gz"
-        sha256 "e354a58296be0e10bb9435a8be3810f78451b67a980f8de8c35f82e5e09bfcd2"
+        sha256 "05a02426307ca18450f469d060a8fe3d67e4936fbf39cacc584ab9b674329e5b"
 
         def install
           bin.install "wa"
@@ -35,7 +35,7 @@ class Wa < Formula
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/yolo-labz/wa/releases/download/v2.2.0/wa_2.2.0_linux_arm64.tar.gz"
-        sha256 "95559db40f4c537c53c34f261d5c8888df2bde30cae7c46e8dad61c333c74512"
+        sha256 "7eca3efb59ff2eaa7c927f669c84480db0a4dd02fe1c71b616564745df9a2401"
 
         def install
           bin.install "wa"
