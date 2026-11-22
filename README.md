@@ -1,6 +1,6 @@
 # yolo-labz/homebrew-tap
 
-Homebrew tap for [`yolo-labz/wa`](https://github.com/yolo-labz/wa) — a personal
+Homebrew tap for [`yolo-labz/wa`](https://github.com/yolo-labz/wa), a personal
 WhatsApp automation CLI + daemon written in Go.
 
 ## Install
@@ -32,4 +32,4 @@ carry no separate license.
 
 ## Services
 
-Compliance-grade AI architecture for regulated workloads — async-first, USD-denominated, LATAM-based / EN-fluent. See [blog.home301server.com.br/services](https://blog.home301server.com.br/services/).
+Compliance-grade AI architecture for regulated workloads, async-first, USD-denominated, LATAM-based / EN-fluent. See [blog.home301server.com.br/services](https://blog.home301server.com.br/services/).
